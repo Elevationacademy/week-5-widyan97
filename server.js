@@ -28,7 +28,7 @@ app.get('/priceCheck/:name', function(request, response){
     response.send({"price":`null`})
 })
 
-const port = 3001
+const port = 3000
 app.listen(port, function(){
     console.log(`Server is up and running smoothly ${port}`)
 })
